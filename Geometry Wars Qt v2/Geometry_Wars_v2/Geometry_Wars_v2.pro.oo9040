@@ -1,0 +1,27 @@
+TEMPLATE = app
+CONFIG += console
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += main.cpp \
+    game.cpp \
+    player.cpp \
+    enemy.cpp
+
+include(deployment.pri)
+qtcAddDeployment()
+
+LIBS += -L"../SFML/lib"
+LIBS += -L"../SFML/bin"
+
+CONFIG(release, debug|release): LIBS += -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-network -lsfml-window #ORDER MATTERS!
+CONFIG(debug, debug|release): LIBS += -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-network -lsfml-window
+
+INCLUDEPATH += "../SFML/include"
+DEPENDPATH += "../SFML/include"
+
+HEADERS += \
+    game.h \
+    player.h \
+    constants.h \
+    enemy.h

@@ -1,0 +1,15 @@
+INPUT(
+./debug/main.o
+./debug/game.o
+./debug/player.o
+./debug/enemy.o
+./debug/blue.o
+./debug/weapon.o
+./debug/weapont1.o
+./debug/purple.o
+./debug/green.o
+./debug/pink.o
+./debug/smallpink.o
+./debug/weapont2.o
+./debug/weapont3.o
+);

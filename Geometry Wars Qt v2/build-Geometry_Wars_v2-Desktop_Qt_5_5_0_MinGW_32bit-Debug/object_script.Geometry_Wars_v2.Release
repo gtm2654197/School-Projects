@@ -1,0 +1,15 @@
+INPUT(
+./release/main.o
+./release/game.o
+./release/player.o
+./release/enemy.o
+./release/blue.o
+./release/weapon.o
+./release/weapont1.o
+./release/purple.o
+./release/green.o
+./release/pink.o
+./release/smallpink.o
+./release/weapont2.o
+./release/weapont3.o
+);
