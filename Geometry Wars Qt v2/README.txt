@@ -1,5 +1,4 @@
--I wasn't able to get SFML to work in NetBeans, so I worked in Qt Creator. Here is a video of the project: https://www.youtube.com/edit?o=U&video_id=6x-_Kyscs4U
-
+-I wasn't able to get SFML to work in NetBeans, so I worked in Qt Creator. Here is a video of the project: https://www.youtube.com/watch?v=6x-_Kyscs4U
 -Controls: I recommend using an xbox 360 controller, as movement is more fluid.
 Keyboard: 
 	  WASD: Movement
